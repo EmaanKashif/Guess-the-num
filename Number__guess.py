@@ -1,21 +1,3 @@
-# import random
-
-# def Guess_num():
-#         print("Welcome to the number guessing game!")
-#         random_num = random.randint(1,100)
-#         for i in range(5):
-#             guess = int(input("Guess the number and I will give u hint if number is too high or low: "))
-#             if guess == random_num:
-#               print("Yahoo! You guess it right")
-#             elif guess > random_num:
-#                print("Number is higher")
-#             elif guess < random_num:
-#                print("Number is lower")
-#             else:
-#                print("Enter a valid number")
-
-# Guess_num()
-
 import random
 
 def guess_num():
